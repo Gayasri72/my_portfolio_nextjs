@@ -1,3 +1,4 @@
+import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Image from "next/image";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="relative bg-black-100">
       <div>
       <Hero/>
+      <Grid/>
       </div>
     </main>
   );
