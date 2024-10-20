@@ -1,11 +1,11 @@
 import React from 'react'
-import { BentoGrid, BentoGridDemo } from './ui/BentoGrid'
+import { BentoGrid,BentoGridItem } from './ui/BentoGrid'
 
 const Grid = () => {
   return (
-    <section>
+    <section id='about'>
         <BentoGrid>
-            
+            {[{title:'Title',}]}
         </BentoGrid>
     </section>
   )
